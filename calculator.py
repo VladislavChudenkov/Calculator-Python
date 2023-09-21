@@ -1,5 +1,4 @@
 import math
-import os
 def checkInt():
     while(True):
         firstNumber = input()
@@ -8,11 +7,9 @@ def checkInt():
         else:
             print("Вы ввели не число")
             continue
-clear = lambda: os.system('cls')
 lastresult= ("")
 bool  (True)
 while (True):
-    clear()
     print ("Последний результат " + str(lastresult))
     print("Введите действие (end для завершения работы программы)")
     action = input()
